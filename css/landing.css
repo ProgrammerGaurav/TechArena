@@ -1,0 +1,61 @@
+/* ---- reset ---- */
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+}
+
+canvas {
+  display: block;
+  vertical-align: bottom;
+}
+
+/* ---- particles.js container ---- */
+#particles-js {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #2d2c2c;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+/* ---- stats.js ---- */
+.js-count-particles {
+  font-size: 1.1em;
+}
+
+
+.info{
+  color: #ffffff;
+  text-align: center;
+  background:transparent;
+  position: absolute;
+  margin-top: auto;
+  margin-bottom: auto;
+  left:0;
+  right:0;
+  margin-right: auto;
+  margin-left: auto;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.info img {
+  height: 200px;
+  left: 30px;
+}
+.info h2{
+  margin-top:15px;
+}
+.mybtn {
+  color: #ffffff;
+  background-color: #73CCD9;
+  padding:10px;
+}
+.mybtn:hover{
+  color: #73CCD9;
+  background-color: #ffffff;
+  text-decoration: none;
+}

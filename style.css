@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.se-pre-con {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(Preloader.gif) center no-repeat #fff;
+}
+
+header {
+  padding: 0px 30px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #2d2c2c;
+  box-sizing: border-box;
+  z-index: 999;
+  position: fixed;
+  background: transparent;
+  height: 70px;
+}
+
+.navbars {
+  transition: all 0.5s;
+}
+
+header .logo {
+  color: #fff;
+  height: 70px;
+  line-height: 70px;
+  font-size: 30px;
+  font-weight: bold;
+  float: left;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header nav {
+  float: right;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  list-style: none;
+}
+
+header nav ul li a {
+  height: 70px;
+  line-height: 70px;
+  padding: 0px 30px;
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  transition: 0.5s;
+  font-size: 24px;
+}
+
+header nav ul li a:hover {
+  color: #333;
+  background: #fff;
+  border-radius: 20px;
+}
+
+.toggle {
+  color: white;
+  float: right;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+  line-height: 70px;
+}
+
+#landing {
+
+  /* display: none; */
+  height: 100vh;
+  margin: 0;
+  padding: 0;  /* min-height: 420px; */
+}
+
+.d {
+  margin-bottom: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerlogo{
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 8px;
+}
