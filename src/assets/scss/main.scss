@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Roboto:wght@300;400;500;700;900&display=swap");
 
 * {
 	margin: 0;
@@ -7,8 +7,9 @@
 }
 
 body {
-	font-family: "Roboto", sans-serif;
-	// background-color: #3bbced;
+	font-family: "Orbitron", sans-serif;
+	background-color: #222222;
+	color: #fff;
 }
 
 a {
@@ -21,3 +22,4 @@ a {
 }
 @import "./Navbar.scss";
 @import "./Landing.scss";
+@import "./About.scss";
