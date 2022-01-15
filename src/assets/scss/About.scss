@@ -1,0 +1,31 @@
+.heading {
+    text-align: center;
+    padding: 52px 0;
+    height: 25px;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.whole {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    row-gap: 70px;
+    .card {
+        background: #363636;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        text-align: center;
+        .circle {
+            height: 100px;
+            width: 100px;
+            border-radius: 335px;
+            margin-top: -50px;
+        }
+    }
+}
