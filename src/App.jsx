@@ -1,17 +1,46 @@
+import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
+import Explore from "./components/Explore";
+import Events from "./components/Events";
+import Footer from "./components/Footer";
+import RegisterForm from "./components/RegisterForm";
+
 import "./assets/scss/main.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
+	useEffect(() => {
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener("click", function (e) {
+				e.preventDefault();
+				console.log(this.getAttribute("href"));
+				document.querySelector(this.getAttribute("href")).scrollIntoView({
+					behavior: "smooth",
+					block: "center",
+				});
+			});
+		});
+	}, []);
 	return (
 		<div className="App">
 			<BrowserRouter>
-				<Navbar />
 				<Routes>
-					<Route path="/" element={<Landing />} />
+					<Route
+						path="/"
+						element={
+							<>
+								<Navbar />
+								<Landing />
+								<Explore />
+								<Events />
+								<Footer />
+							</>
+						}
+					/>
 					<Route path="/about" element={<About />} />
+					<Route path="/register" element={<RegisterForm />} />
 				</Routes>
 			</BrowserRouter>
 		</div>

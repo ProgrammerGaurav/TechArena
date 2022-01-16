@@ -1,0 +1,38 @@
+.events {
+	.slick-list {
+		margin: 0 -10px;
+	}
+	.slick-slide > div {
+		padding: 0 10px;
+	}
+	.slick-track {
+		display: flex;
+
+		.slick-slide {
+			display: flex;
+			height: auto;
+		}
+	}
+	.event {
+		padding: 54px 0;
+
+		&-title {
+			font-weight: bold;
+			font-size: 20px;
+			text-align: center;
+			text-transform: uppercase;
+			margin-bottom: 54px;
+		}
+	}
+	.technical-events,
+	.gaming-events {
+		background: #1a1a1a;
+	}
+	.gaming-events {
+		.eventcard {
+			img {
+				height: 500px !important;
+			}
+		}
+	}
+}

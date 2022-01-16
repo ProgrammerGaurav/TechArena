@@ -1,14 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Landing = () => {
 	return (
-		<div className="landing">
+		<div className="landing" id="landing">
 			<div className="bg"></div>
 			<div className="title">Tech Arena</div>
-			<div className="subtitle">Code play slay</div>
+			<div className="subtitle">Feburary 5 & 6</div>
 			<div className="buttons">
-				<a href="/">Exlore</a>
-				<a href="/">register</a>
+				<a
+					href="/"
+					onClick={(e) => {
+						e.preventDefault();
+						window.scrollTo({
+							top: document.getElementById("explore").offsetTop - 100,
+							left: 0,
+							behavior: "smooth",
+						});
+					}}
+				>
+					Exlore
+				</a>
+				<Link to="/register">register</Link>
 			</div>
 		</div>
 	);

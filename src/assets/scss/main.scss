@@ -10,16 +10,45 @@ body {
 	font-family: "Orbitron", sans-serif;
 	background-color: #222222;
 	color: #fff;
+	-webkit-tap-highlight-color: transparent;
 }
 
 a {
 	text-decoration: none;
 	color: inherit;
 }
+
 .container {
 	max-width: 1310px;
+	padding: 0 20px;
 	margin: 0 auto;
 }
+
+/* Scrollbar -- start */
+::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: black;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #56bae7;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: #56bae7;
+}
+
 @import "./Navbar.scss";
 @import "./Landing.scss";
 @import "./About.scss";
+@import "./Explore.scss";
+@import "./EventCard.scss";
+@import "./Events.scss";
+@import "./RegisterForm.scss";
+@import "./Footer.scss";
