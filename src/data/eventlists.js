@@ -9,7 +9,7 @@ const eventsLists = [
 	},
 	{
 		title: "Gaming Events",
-		events: ["Clash Royale  ", "Valorant", "&nbsp;", "&nbsp;", "&nbsp;", "&nbsp;"],
+		events: ["Counter-Strike: Global Offensive ", "Valorant", "&nbsp;", "&nbsp;", "&nbsp;", "&nbsp;"],
 	},
 ];
 export default eventsLists;

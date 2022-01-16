@@ -1,15 +1,15 @@
 const technicalEvents = [
 	{
-		img: "/assets/webpage.jpg",
-		title: "Coding",
+		img: "/assets/csgo.webp",
+		title: "Counter-Strike: Global Offensive",
 		subtitle:
-			"Get a chance to showcase your coding skills by registering yourself at our coding event and be the top in coding to get exciting prize.",
+			"'Let's go, fellas.' 'Let's move out.' We invite you and your squad to come and play. You are allowed to carry your equipments such as mouse-pad, headphones for better experience and good game.",
 	},
 	{
-		img: "/assets/webpage.jpg",
-		title: "Coding",
+		img: "/assets/valo.webp",
+		title: "Valorant",
 		subtitle:
-			"Get a chance to showcase your coding skills by registering yourself at our coding event and be the top in coding to get exciting prize.",
+			"'One shot one kill, No luck only skill.' We invite you and your squad to come and play. You have to use your mobile network.",
 	},
 ];
 
