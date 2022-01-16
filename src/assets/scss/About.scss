@@ -1,0 +1,57 @@
+.about {
+	margin: 50px 0;
+	.title {
+		font-weight: bold;
+		font-size: 20px;
+		text-transform: uppercase;
+
+		margin-bottom: 100px;
+		text-align: center;
+	}
+	.cards {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-gap: 20px;
+		row-gap: 70px;
+
+		.card {
+			background: #363636;
+			border: 1px solid #000000;
+			border-radius: 5px;
+			text-align: center;
+			img {
+				height: 100px;
+				width: 100px;
+				border-radius: 335px;
+				margin-top: -50px;
+				object-fit: cover;
+			}
+			.title {
+				margin: 0;
+				margin-top: 22px;
+				font-size: 18px;
+				text-transform: uppercase;
+			}
+			.subtitle {
+				text-transform: capitalize;
+				font-size: 14px;
+				font-weight: bold;
+				margin-bottom: 20px;
+			}
+			.line {
+				width: 80%;
+				margin: 0 auto;
+				border-top: 2px solid #ffffff;
+			}
+			.socials {
+				display: flex;
+				justify-content: space-between;
+				width: 200px;
+				margin: 30px auto;
+				a {
+					font-size: 2rem;
+				}
+			}
+		}
+	}
+}

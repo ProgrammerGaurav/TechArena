@@ -8,7 +8,17 @@ const ExploreCard = ({ eventItem }) => {
 			{eventItem.events.map((event, index) => (
 				<div className="event" key={index} dangerouslySetInnerHTML={{ __html: event }} />
 			))}
-			<div className="detail-btn">Details</div>
+			<div
+				className="detail-btn"
+				onClick={() => {
+					document.getElementById(eventItem.title).scrollIntoView({
+						behavior: "smooth",
+						block: "center",
+					});
+				}}
+			>
+				Details
+			</div>
 		</div>
 	);
 };

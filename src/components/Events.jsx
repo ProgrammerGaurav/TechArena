@@ -39,7 +39,7 @@ const Events = () => {
 	};
 	return (
 		<div className="events">
-			<div className="technical-events event">
+			<div className="technical-events event" id="Technical Events">
 				<div className="container">
 					<div className="event-title">Technical Event</div>
 					<div className="cards">
@@ -51,7 +51,7 @@ const Events = () => {
 					</div>
 				</div>
 			</div>
-			<div className="non-technical-events event">
+			<div className="non-technical-events event" id="Non-Technical Events">
 				<div className="container">
 					<div className="event-title">Non-Technical Event</div>
 					<div className="cards">
@@ -63,7 +63,7 @@ const Events = () => {
 					</div>
 				</div>
 			</div>
-			<div className="gaming-events event">
+			<div className="gaming-events event" id="Gaming Events">
 				<div className="container">
 					<div className="event-title">Gaming Event</div>
 					<div className="cards">

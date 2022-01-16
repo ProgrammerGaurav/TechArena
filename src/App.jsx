@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
-import About from "./components/About";
 import Explore from "./components/Explore";
 import Events from "./components/Events";
+import About from "./components/About";
 import Footer from "./components/Footer";
 import RegisterForm from "./components/RegisterForm";
 
@@ -15,7 +15,6 @@ function App() {
 		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 			anchor.addEventListener("click", function (e) {
 				e.preventDefault();
-				console.log(this.getAttribute("href"));
 				document.querySelector(this.getAttribute("href")).scrollIntoView({
 					behavior: "smooth",
 					block: "center",
@@ -35,6 +34,7 @@ function App() {
 								<Landing />
 								<Explore />
 								<Events />
+								<About />
 								<Footer />
 							</>
 						}

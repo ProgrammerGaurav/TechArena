@@ -111,7 +111,6 @@ const RegisterForm = () => {
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const submitForm = (e) => {
 		e.preventDefault();
-		console.log("fds");
 		let empty = false;
 		Object.keys(formData).map((key, index) => {
 			console.log(formData[key]);
