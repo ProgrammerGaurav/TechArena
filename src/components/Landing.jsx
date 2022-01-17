@@ -19,7 +19,7 @@ const Landing = () => {
 						});
 					}}
 				>
-					Exlore
+					Explore
 				</a>
 				<Link to="/register">register</Link>
 			</div>
