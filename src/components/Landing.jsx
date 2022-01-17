@@ -6,7 +6,7 @@ const Landing = () => {
 		<div className="landing" id="landing">
 			<div className="bg"></div>
 			<div className="title">Tech Arena</div>
-			<div className="subtitle">Feburary 5 & 6</div>
+			<div className="subtitle">Feburary 4 & 5</div>
 			<div className="buttons">
 				<a
 					href="/"

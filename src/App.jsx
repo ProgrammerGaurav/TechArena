@@ -39,7 +39,6 @@ function App() {
 							</>
 						}
 					/>
-					<Route path="/about" element={<About />} />
 					<Route path="/register" element={<RegisterForm />} />
 				</Routes>
 			</BrowserRouter>

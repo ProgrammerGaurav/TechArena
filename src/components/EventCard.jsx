@@ -8,7 +8,7 @@ const EventCard = ({ event }) => {
 			<div className="title">{event.title}</div>
 			<div className="subtitle">{event.subtitle}</div>
 			{event.registerLink ? (
-				<a href={event.registerLink} className="register-btn">
+				<a href={event.registerLink} className="register-btn" target="_blank" rel="noreferrer">
 					register
 				</a>
 			) : (

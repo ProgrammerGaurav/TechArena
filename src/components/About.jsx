@@ -14,15 +14,21 @@ const About = () => {
 							<div className="subtitle">{about.title}</div>
 							<div className="line"></div>
 							<div className="socials">
-								<a href={about.github}>
-									<i className="fab fa-github"></i>
-								</a>
-								<a href={about.instagram}>
-									<i className="fab fa-instagram"></i>
-								</a>
-								<a href={about.linkedin}>
-									<i className="fab fa-linkedin"></i>
-								</a>
+								{about.github && (
+									<a href={about.github}>
+										<i className="fab fa-github"></i>
+									</a>
+								)}
+								{about.instagram && (
+									<a href={about.instagram}>
+										<i className="fab fa-instagram"></i>
+									</a>
+								)}
+								{about.linkedin && (
+									<a href={about.linkedin}>
+										<i className="fab fa-linkedin"></i>
+									</a>
+								)}
 							</div>
 						</div>
 					))}

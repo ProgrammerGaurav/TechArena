@@ -36,3 +36,14 @@
 		}
 	}
 }
+@media (max-width: 992px) {
+	.events {
+		.gaming-events {
+			.eventcard {
+				img {
+					height: 250px !important;
+				}
+			}
+		}
+	}
+}

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import registerForm from "../data/registerForm";
-
+import axios from "axios";
+import { Link } from "react-router-dom";
 const Input = ({ icon, placeholder, type, name, formData, setFormData }) => {
 	return (
 		<div className="input">
@@ -124,6 +125,21 @@ const RegisterForm = () => {
 			alert("Please fill all the fields");
 		} else {
 			setIsSubmitting(true);
+
+			axios
+				.post("https://v1.nocodeapi.com/mang0/google_sheets/SlwbptvugPHWzDEI", [["fdsa", "fds"]], {
+					params: {
+						tabId: "main",
+					},
+				})
+				.then((res) => {
+					setIsSubmitting(false);
+					alert("Successfully registered");
+				})
+				.catch((err) => {
+					setIsSubmitting(false);
+					alert(err);
+				});
 		}
 	};
 	useEffect(() => {
@@ -163,6 +179,9 @@ const RegisterForm = () => {
 					<button className="submit" type="submit">
 						submit
 					</button>
+					<Link to="/" className="submit">
+						Back
+					</Link>
 				</form>
 			</div>
 		</div>

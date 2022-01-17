@@ -21,9 +21,9 @@ const Navbar = () => {
 		<nav className={isScrolled || isOpen ? "navbar navbar-scrolled" : "navbar"}>
 			<div className="container">
 				<img src="assets/logo.svg" alt="" />
-				<Link to="/" className="navbar-brand">
+				<a href="#landing" className="navbar-brand">
 					TechArena
-				</Link>
+				</a>
 				<div
 					className="toggle"
 					onClick={() => {
