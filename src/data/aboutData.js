@@ -1,6 +1,6 @@
 const aboutData = [
 	{
-		img: "gaurav.jpg",
+		img: "gaurav.webp",
 		name: "Gaurav Gupta",
 		title: "Technical Head",
 		github: "https://github.com/programmergaurav",
@@ -8,7 +8,7 @@ const aboutData = [
 		linkedin: "https://www.linkedin.com/in/programmergaurav/",
 	},
 	{
-		img: "kate.jpg",
+		img: "kate.webp",
 		name: "Abhishek Kate",
 		title: "Designing Head",
 		github: "",
@@ -16,7 +16,7 @@ const aboutData = [
 		linkedin: "https://www.linkedin.com/in/abhishek-kate-6879bb1b3/",
 	},
 	{
-		img: "jayesh.jpg",
+		img: "jayesh.webp",
 		name: "Jayesh Padhale",
 		title: "Social Media Head",
 		github: "",
@@ -24,7 +24,7 @@ const aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "sawant.jpg",
+		img: "sawant.webp",
 		name: "Prathamesh Sawant",
 		title: "Marketing Head",
 		github: "",
@@ -32,7 +32,7 @@ const aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "sid.jpg",
+		img: "sid.webp",
 		name: "Siddhesh Mane",
 		title: "Non Tech Head",
 		github: "",
@@ -40,7 +40,7 @@ const aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "manish.jpg",
+		img: "manish.webp",
 		name: "Manish Mohan",
 		title: "Invitation Head",
 		github: "",
@@ -48,7 +48,7 @@ const aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "baggu.jpg",
+		img: "baggu.webp",
 		name: "Bhagyavan",
 		title: "Event Head",
 		github: "",
@@ -56,7 +56,7 @@ const aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "santra.jpg",
+		img: "santra.webp",
 		name: "Shubhamkar",
 		title: "Gaming Head",
 		github: "https://github.com/SantraMosambi",
