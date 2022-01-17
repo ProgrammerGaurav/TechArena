@@ -9,7 +9,7 @@ const aboutData = [
 	},
 	{
 		img: "kate.jpg",
-		name: "Abhishek Jhate",
+		name: "Abhishek Kate",
 		title: "Designing Head",
 		github: "",
 		instagram: "https://www.instagram.com/abhi_rk__/",
@@ -49,7 +49,7 @@ const aboutData = [
 	},
 	{
 		img: "baggu.jpg",
-		name: "Raju",
+		name: "Bhagyavan",
 		title: "Event Head",
 		github: "",
 		instagram: "https://www.instagram.com/bhagyavan_2514/",
@@ -57,7 +57,7 @@ const aboutData = [
 	},
 	{
 		img: "santra.jpg",
-		name: "Santramosambi",
+		name: "Shubhamkar",
 		title: "Gaming Head",
 		github: "https://github.com/SantraMosambi",
 		instagram: "https://www.instagram.com/santra_mosambi/",
