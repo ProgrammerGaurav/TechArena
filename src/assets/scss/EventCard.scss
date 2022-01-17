@@ -2,6 +2,7 @@
 	background: #363636;
 	border-radius: 5px;
 	height: 100%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: flex-start;
@@ -23,6 +24,7 @@
 		text-transform: uppercase;
 		padding: 0 25px;
 		padding-bottom: 25px;
+		word-spacing: 5px;
 	}
 	.register-btn {
 		margin-bottom: 25px;

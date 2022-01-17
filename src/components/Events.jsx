@@ -20,7 +20,7 @@ const Events = () => {
 		autoplay: true,
 		speed: 500,
 		autoplaySpeed: 2000,
-		pauseOnHover: false,
+		pauseOnHover: true,
 		responsive: [
 			{
 				breakpoint: 992,
