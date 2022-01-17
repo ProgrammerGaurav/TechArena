@@ -114,7 +114,6 @@ const RegisterForm = () => {
 		e.preventDefault();
 		let empty = false;
 		Object.keys(formData).map((key, index) => {
-			console.log(formData[key]);
 			if (formData[key] === "" || formData[key] === []) {
 				empty = true;
 			}
@@ -137,7 +136,6 @@ const RegisterForm = () => {
 				formData.gender,
 				formData.confirm,
 			];
-			console.log();
 			axios
 				.post("https://v1.nocodeapi.com/techqawsed/google_sheets/OuMGLNiDxiGQdNEq", [data], {
 					params: {
@@ -157,7 +155,6 @@ const RegisterForm = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
-	console.log(formData);
 	return (
 		<div className="registerform">
 			{isSubmitting && <PopUp />}
