@@ -125,9 +125,21 @@ const RegisterForm = () => {
 			alert("Please fill all the fields");
 		} else {
 			setIsSubmitting(true);
-
+			const data = [
+				Date().toLocaleString(),
+				formData.name,
+				formData.email,
+				formData.contactNo,
+				formData.collegeName,
+				formData.event.join(", "),
+				formData.stream,
+				formData.year,
+				formData.gender,
+				formData.confirm,
+			];
+			console.log();
 			axios
-				.post("https://v1.nocodeapi.com/mang0/google_sheets/SlwbptvugPHWzDEI", [["fdsa", "fds"]], {
+				.post("https://v1.nocodeapi.com/techqawsed/google_sheets/OuMGLNiDxiGQdNEq", [data], {
 					params: {
 						tabId: "main",
 					},
@@ -169,19 +181,19 @@ const RegisterForm = () => {
 								<label
 									htmlFor="confirm"
 									onClick={() => {
-										setFormData({ ...formData, confirm: "newEvents" });
+										setFormData({ ...formData, confirm: "yes" });
 									}}
 								></label>
 							</div>
 							<div>Confirm?</div>
 						</div>
 					</div>
-					<button className="submit" type="submit">
-						submit
-					</button>
 					<Link to="/" className="submit">
 						Back
 					</Link>
+					<button className="submit" type="submit">
+						submit
+					</button>
 				</form>
 			</div>
 		</div>

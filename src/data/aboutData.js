@@ -10,15 +10,15 @@ const aboutData = [
 	{
 		img: "kate.jpg",
 		name: "Abhishek Jhate",
-		title: "Technical Head",
+		title: "Designing Head",
 		github: "",
 		instagram: "https://www.instagram.com/abhi_rk__/",
-		linkedin: "",
+		linkedin: "https://www.linkedin.com/in/abhishek-kate-6879bb1b3/",
 	},
 	{
 		img: "jayesh.jpg",
 		name: "Jayesh Padhale",
-		title: "Technical Head",
+		title: "Social Media Head",
 		github: "",
 		instagram: "https://www.instagram.com/___jsp_/",
 		linkedin: "",
@@ -26,7 +26,7 @@ const aboutData = [
 	{
 		img: "sawant.jpg",
 		name: "Prathamesh Sawant",
-		title: "Technical Head",
+		title: "Marketing Head",
 		github: "",
 		instagram: "https://www.instagram.com/prathamesh2789/",
 		linkedin: "",
@@ -34,7 +34,7 @@ const aboutData = [
 	{
 		img: "sid.jpg",
 		name: "Siddhesh Mane",
-		title: "Technical Head",
+		title: "Non Tech Head",
 		github: "",
 		instagram: "https://www.instagram.com/_sid__mane_/",
 		linkedin: "",
@@ -42,7 +42,7 @@ const aboutData = [
 	{
 		img: "manish.jpg",
 		name: "Manish Mohan",
-		title: "Technical Head",
+		title: "Invitation Head",
 		github: "",
 		instagram: "https://www.instagram.com/manishhhh11/",
 		linkedin: "",
@@ -54,6 +54,14 @@ const aboutData = [
 		github: "",
 		instagram: "https://www.instagram.com/bhagyavan_2514/",
 		linkedin: "",
+	},
+	{
+		img: "santra.jpg",
+		name: "Santramosambi",
+		title: "Gaming Head",
+		github: "https://github.com/SantraMosambi",
+		instagram: "https://www.instagram.com/santra_mosambi/",
+		linkedin: "https://www.linkedin.com/in/shubhamkar-bhattacharya-ab5787131/",
 	},
 ];
 export default aboutData;

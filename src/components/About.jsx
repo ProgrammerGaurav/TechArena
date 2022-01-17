@@ -2,6 +2,7 @@ import React from "react";
 import aboutData from "../data/aboutData";
 
 const About = () => {
+	aboutData.sort(() => Math.random() - 0.5);
 	return (
 		<div className="about" id="about">
 			<div className="container">
