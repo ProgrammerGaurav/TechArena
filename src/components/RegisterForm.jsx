@@ -11,6 +11,7 @@ const Input = ({ icon, placeholder, type, name, formData, setFormData }) => {
 				placeholder={placeholder}
 				name={name}
 				autoComplete="off"
+				value={formData[name]}
 				onChange={(e) => {
 					setFormData({ ...formData, [name]: e.target.value });
 				}}
@@ -144,9 +145,11 @@ const RegisterForm = () => {
 				})
 				.then((res) => {
 					setIsSubmitting(false);
+					setFormData(initialFormData);
 					alert("Successfully registered");
 				})
 				.catch((err) => {
+					setFormData(initialFormData);
 					setIsSubmitting(false);
 					alert(err);
 				});
