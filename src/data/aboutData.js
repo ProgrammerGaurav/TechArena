@@ -66,7 +66,7 @@ let aboutData = [
 	{
 		img: "raunak.webp",
 		name: "Raunak Agrahari",
-		title: "Coding Head",
+		title: "Technical Head",
 		github: "",
 		instagram: "https://www.instagram.com/raunak_agrahari_/",
 		linkedin: "https://www.linkedin.com/in/raunak-agrahari-b838a1226/",
