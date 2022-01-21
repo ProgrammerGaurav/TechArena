@@ -64,7 +64,7 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/shubhamkar-bhattacharya-ab5787131/",
 	},
 	{
-		img: "raunak.jpg",
+		img: "raunak.webp",
 		name: "Raunak Agrahari",
 		title: "Coding Head",
 		github: "",
@@ -72,7 +72,7 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/raunak-agrahari-b838a1226/",
 	},
 	{
-		img: "harshad.jpg",
+		img: "harshad.webp",
 		name: "Harshad Sonawane",
 		title: "WebPage Head",
 		github: "https://github.com/harshad1999",
@@ -80,7 +80,7 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/harshad-sonawane-8209991ab/",
 	},
 	{
-		img: "yash.jpg",
+		img: "yash.webp",
 		name: "Yash Chavan",
 		title: "Valorant Head",
 		github: "",
@@ -88,7 +88,7 @@ let aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "ganesh.jpg",
+		img: "ganesh.webp",
 		name: "Ganesh Behera",
 		title: "Debugging Head",
 		github: "",
