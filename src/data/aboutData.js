@@ -1,4 +1,4 @@
-const aboutData = [
+let aboutData = [
 	{
 		img: "gaurav.webp",
 		name: "Gaurav Gupta",
@@ -62,6 +62,38 @@ const aboutData = [
 		github: "https://github.com/SantraMosambi",
 		instagram: "https://www.instagram.com/santra_mosambi/",
 		linkedin: "https://www.linkedin.com/in/shubhamkar-bhattacharya-ab5787131/",
+	},
+	{
+		img: "raunak.jpg",
+		name: "Raunak Agrahari",
+		title: "Coding Head",
+		github: "",
+		instagram: "https://www.instagram.com/raunak_agrahari_/",
+		linkedin: "https://www.linkedin.com/in/raunak-agrahari-b838a1226/",
+	},
+	{
+		img: "harshad.jpg",
+		name: "Harshad Sonawane",
+		title: "WebPage Head",
+		github: "https://github.com/harshad1999",
+		instagram: "https://www.instagram.com/99_harshad/",
+		linkedin: "https://www.linkedin.com/in/harshad-sonawane-8209991ab/",
+	},
+	{
+		img: "yash.jpg",
+		name: "Yash Chavan",
+		title: "Valorant Head",
+		github: "",
+		instagram: "https://www.instagram.com/yash.chavan28/",
+		linkedin: "",
+	},
+	{
+		img: "ganesh.jpg",
+		name: "Ganesh Behera",
+		title: "Debugging Head",
+		github: "",
+		instagram: "",
+		linkedin: "https://www.linkedin.com/in/ganesh-behera-2997a7226/",
 	},
 ];
 export default aboutData;

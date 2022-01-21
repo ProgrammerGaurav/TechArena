@@ -1,8 +1,11 @@
 import React from "react";
-import aboutData from "../data/aboutData";
+import initialAboutData from "../data/aboutData";
 
 const About = () => {
-	aboutData.sort(() => Math.random() - 0.5);
+	let aboutData = [
+		...initialAboutData.slice(0, 8).sort(() => Math.random() - 0.5),
+		...initialAboutData.slice(8, initialAboutData.length),
+	];
 	return (
 		<div className="about" id="about">
 			<div className="container">
