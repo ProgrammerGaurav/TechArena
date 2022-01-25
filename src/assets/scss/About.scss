@@ -1,6 +1,7 @@
 .about {
-	margin: 50px 0;
-	.title {
+	padding: 50px 0;
+	background-color: #1A1A1B;
+	.title {	
 		font-weight: bold;
 		font-size: 20px;
 		text-transform: uppercase;
@@ -46,7 +47,7 @@
 			.socials {
 				display: flex;
 				justify-content: space-around;
-				width: 200px;
+				width: 200px;	
 				margin: 30px auto;
 				a {
 					font-size: 2rem;

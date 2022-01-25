@@ -4,6 +4,7 @@ import Landing from "./components/Landing";
 import Explore from "./components/Explore";
 import Events from "./components/Events";
 import About from "./components/About";
+import Faculty from "./components/Faculty";
 import Footer from "./components/Footer";
 import RegisterForm from "./components/RegisterForm";
 
@@ -34,6 +35,7 @@ function App() {
 								<Landing />
 								<Explore />
 								<Events />
+								<Faculty />
 								<About />
 								<Footer />
 							</>
