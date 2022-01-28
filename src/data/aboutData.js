@@ -95,5 +95,37 @@ let aboutData = [
 		instagram: "",
 		linkedin: "https://www.linkedin.com/in/ganesh-behera-2997a7226/",
 	},
+	{
+		img: "mrinmayee.jpg",
+		name: "Mrinmayee Shinde",
+		title: "Debugging Head",
+		github: "",
+		instagram: "",
+		linkedin: "",
+	},
+	{
+		img: "janvi.jpg",
+		name: "Janvi Singh",
+		title: "Debugging Head",
+		github: "",
+		instagram: "",
+		linkedin: "",
+	},
+	{
+		img: "maithly.jpg",
+		name: "Maithily Sawant",
+		title: "Debugging Head",
+		github: "",
+		instagram: "",
+		linkedin: "",
+	},
+	{
+		img: "neha.jpg",
+		name: "Neha Kanojiya",
+		title: "Debugging Head",
+		github: "",
+		instagram: "",
+		linkedin: "",
+	},
 ];
 export default aboutData;

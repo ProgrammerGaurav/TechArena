@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import initialAboutData from "../data/aboutData";
 
 const About = () => {
@@ -6,10 +6,13 @@ const About = () => {
 		...initialAboutData.slice(0, 8).sort(() => Math.random() - 0.5),
 		...initialAboutData.slice(8, initialAboutData.length),
 	];
+	useEffect(() => {
+		window.scrollTo(0, 0);
+	}, []);
 	return (
 		<div className="about" id="about">
 			<div className="container">
-				<div className="title">About Us</div>
+				<div className="title">Team TechArena-2022</div>
 				<div className="cards">
 					{aboutData.map((about, index) => (
 						<div className="card" key={index}>
