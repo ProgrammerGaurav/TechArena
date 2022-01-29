@@ -72,7 +72,7 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/raunak-agrahari-b838a1226/",
 	},
 	{
-		img: "ashutosh.jpg",
+		img: "ashutosh.webp",
 		name: "Ashutosh Mishra",
 		title: "Algo Head",
 		github: "",
@@ -96,7 +96,7 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/ganesh-behera-2997a7226/",
 	},
 	{
-		img: "mrinmayee.jpg",
+		img: "mrinmayee.webp",
 		name: "Mrinmayee Shinde",
 		title: "Kala se Kalakar Head",
 		github: "",
@@ -104,7 +104,7 @@ let aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "janvi.jpg",
+		img: "janvi.webp",
 		name: "Janvi Singh",
 		title: "Posteroid Head",
 		github: "",
@@ -112,7 +112,7 @@ let aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "maithly.jpg",
+		img: "maithly.webp",
 		name: "Maithily Sawant",
 		title: "Technovation Head",
 		github: "",
@@ -120,7 +120,7 @@ let aboutData = [
 		linkedin: "",
 	},
 	{
-		img: "neha.jpg",
+		img: "neha.webp",
 		name: "Neha Kanojiya",
 		title: "Just a Min Head",
 		github: "",
