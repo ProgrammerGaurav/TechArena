@@ -11,7 +11,7 @@ let aboutData = [
 		img: "kate.webp",
 		name: "Abhishek Kate",
 		title: "Designing Head",
-		github: "",
+		github: "https://github.com/abhishekate2002",
 		instagram: "https://www.instagram.com/abhi_rk__/",
 		linkedin: "https://www.linkedin.com/in/abhishek-kate-6879bb1b3/",
 	},
@@ -72,12 +72,12 @@ let aboutData = [
 		linkedin: "https://www.linkedin.com/in/raunak-agrahari-b838a1226/",
 	},
 	{
-		img: "harshad.webp",
-		name: "Harshad Sonawane",
-		title: "WebPage Head",
-		github: "https://github.com/harshad1999",
-		instagram: "https://www.instagram.com/99_harshad/",
-		linkedin: "https://www.linkedin.com/in/harshad-sonawane-8209991ab/",
+		img: "ashutosh.jpg",
+		name: "Ashutosh Mishra",
+		title: "Algo Head",
+		github: "",
+		instagram: "https://www.instagram.com/__ashu_m/",
+		linkedin: "",
 	},
 	{
 		img: "yash.webp",
@@ -98,7 +98,7 @@ let aboutData = [
 	{
 		img: "mrinmayee.jpg",
 		name: "Mrinmayee Shinde",
-		title: "Debugging Head",
+		title: "Kala se Kalakar Head",
 		github: "",
 		instagram: "",
 		linkedin: "",
@@ -106,7 +106,7 @@ let aboutData = [
 	{
 		img: "janvi.jpg",
 		name: "Janvi Singh",
-		title: "Debugging Head",
+		title: "Posteroid Head",
 		github: "",
 		instagram: "",
 		linkedin: "",
@@ -114,7 +114,7 @@ let aboutData = [
 	{
 		img: "maithly.jpg",
 		name: "Maithily Sawant",
-		title: "Debugging Head",
+		title: "Technovation Head",
 		github: "",
 		instagram: "",
 		linkedin: "",
@@ -122,7 +122,7 @@ let aboutData = [
 	{
 		img: "neha.jpg",
 		name: "Neha Kanojiya",
-		title: "Debugging Head",
+		title: "Just a Min Head",
 		github: "",
 		instagram: "",
 		linkedin: "",
