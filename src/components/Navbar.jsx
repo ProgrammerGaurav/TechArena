@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
+	let navigate = useNavigate();
 	const [isScrolled, setIsScrolled] = useState(false);
 	const [isOpen, setIsOpen] = useState(false);
 	useEffect(() => {
@@ -13,10 +15,19 @@ const Navbar = () => {
 			}
 		};
 		window.addEventListener("scroll", handleScroll);
+
+		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
+			anchor.addEventListener("click", function (e) {
+				e.preventDefault();
+				navigate("/");
+			});
+		});
+
 		return () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
-	}, []);
+	}, [navigate]);
+
 	return (
 		<nav className={isScrolled || isOpen ? "navbar navbar-scrolled" : "navbar"}>
 			<div className="container">
@@ -42,7 +53,7 @@ const Navbar = () => {
 				>
 					<a href="#landing">Home</a>
 					<a href="#explore">Events</a>
-					<a href="#about">About</a>
+					<Link to="/about">About</Link>
 					<a href="#footer">Contact</a>
 					<Link to="/register">Register</Link>
 				</div>

@@ -1,0 +1,32 @@
+{
+	"workbench.colorTheme": "Monokai",
+	"editor.formatOnSave": true,
+	"editor.fontFamily": "'Consolas'",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"liveServer.settings.donotVerifyTags": true,
+	"liveServer.settings.donotShowInfoMsg": true,
+	"liveServer.settings.NoBrowser": true,
+	"javascript.updateImportsOnFileMove.enabled": "always",
+	"explorer.confirmDelete": false,
+	"explorer.confirmDragAndDrop": false,
+	"editor.inlineSuggest.enabled": true,
+	"github.copilot.enable": {
+		"*": true,
+		"yaml": false,
+		"plaintext": true,
+		"markdown": true
+	},
+	"prettier.tabWidth": 4,
+	"prettier.useTabs": true,
+	"prettier.printWidth": 120,
+	"eslint.debug": true,
+	"eslint.format.enable": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": true
+	},
+	"eslint.validate": ["javascript"],
+	"[javascriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"debug.terminal.clearBeforeReusing": true
+}
