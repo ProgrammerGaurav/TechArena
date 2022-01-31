@@ -6,6 +6,7 @@ import Events from "./components/Events";
 import About from "./components/About";
 import Faculty from "./components/Faculty";
 import Principal from "./components/Principal";
+import Taboiz from "./components/Taboiz";
 import Footer from "./components/Footer";
 import RegisterForm from "./components/RegisterForm";
 
@@ -52,6 +53,7 @@ function App() {
 						element={
 							<>
 								<Navbar />
+								<Taboiz />
 								<Principal />
 								<Faculty />
 								<About />

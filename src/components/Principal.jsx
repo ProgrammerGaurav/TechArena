@@ -4,13 +4,13 @@ const Principal = () => {
 	return (
 		<div className="principal faculty principal">
 			<div className="container">
-				<div className="title">Computer Science Faculty </div>
+				<div className="title">In-Charge Principal</div>
 				<div className="card">
 					<div className="image">
 						<img src="/assets/principal.jpg" alt="" />
 					</div>
 					<div className="text">
-						<div className="title"> Dr. Himanshu Dawda, In-Charge Principal</div>
+						<div className="title"> Dr. Himanshu Dawda</div>
 						<div className="subtitle">
 							Dr. Himanshu Dawda had a brilliant career- Distinction in B.Sc., First Class in M.Sc.
 							followed by a Doctorate in Plant Physiology. She did post-Doctoral research in Plant
