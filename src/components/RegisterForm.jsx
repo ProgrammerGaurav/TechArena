@@ -92,7 +92,7 @@ const PopUp = () => {
 	return (
 		<div className="popup">
 			<div className="container">
-				<img src="/assets/loading.gif" alt="" />
+				<img src="/assets/loading.gif" alt="techarena" />
 			</div>
 		</div>
 	);

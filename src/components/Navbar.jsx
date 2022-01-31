@@ -31,9 +31,9 @@ const Navbar = () => {
 	return (
 		<nav className={isScrolled || isOpen ? "navbar navbar-scrolled" : "navbar"}>
 			<div className="container">
-				<img src="assets/logo.svg" alt="" />
+				<img src="assets/logo.svg" alt="techarena" />
 				<a href="#landing" className="navbar-brand">
-					TechArena
+					<h1> TechArena</h1>
 				</a>
 				<div
 					className="toggle"

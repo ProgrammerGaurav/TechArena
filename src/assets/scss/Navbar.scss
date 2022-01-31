@@ -21,8 +21,10 @@
 		width: 50px;
 	}
 	.navbar-brand {
-		font-size: 1.25rem;
-		font-weight: 500;
+		h1 {
+			font-size: 1.25rem;
+			font-weight: 500;
+		}
 	}
 	.toggle {
 		margin-left: auto;

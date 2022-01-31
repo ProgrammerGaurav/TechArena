@@ -5,7 +5,7 @@ const Landing = () => {
 	return (
 		<div className="landing" id="landing">
 			<div className="bg"></div>
-			<div className="title">Tech Arena</div>
+			<h1 className="title">Tech Arena</h1>
 			<div className="subtitle">Feburary 4 & 5</div>
 			<div className="buttons">
 				<a
