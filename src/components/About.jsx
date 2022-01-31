@@ -16,7 +16,7 @@ const About = () => {
 				<div className="cards">
 					{aboutData.map((about, index) => (
 						<div className="card" key={index}>
-							<img src={`/assets/profile/${about.img}`} alt="" />
+							<img src={`/assets/profile/${about.img}`} alt="techarena" />
 							<div className="title">{about.name}</div>
 							<div className="subtitle">{about.title}</div>
 							<div className="line"></div>

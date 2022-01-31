@@ -18,13 +18,13 @@ const Taboiz = () => {
 			<div className="title">meet our team </div>
 			<Slider {...settings} className="slider">
 				<div className="img-container">
-					<img src="/assets/taboiz/1.jpg" alt="" />
+					<img src="/assets/taboiz/1.jpg" alt="techarena" />
 				</div>
 				<div className="img-container">
-					<img src="/assets/taboiz/2.jpg" alt="" />
+					<img src="/assets/taboiz/2.jpg" alt="techarena" />
 				</div>
 				<div className="img-container">
-					<img src="/assets/taboiz/3.jpg" alt="" />
+					<img src="/assets/taboiz/3.jpg" alt="techarena" />
 				</div>
 			</Slider>
 		</div>

@@ -7,7 +7,7 @@ const Principal = () => {
 				<div className="title">In-Charge Principal</div>
 				<div className="card">
 					<div className="image">
-						<img src="/assets/principal.jpg" alt="" />
+						<img src="/assets/principal.jpg" alt="techarena" />
 					</div>
 					<div className="text">
 						<div className="title"> Dr. Himanshu Dawda</div>

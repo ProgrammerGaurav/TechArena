@@ -15,7 +15,7 @@ const Faculty = () => {
 						</div>
 					</div>
 					<div className="image">
-						<img src="/assets/faculty.jpg" alt="" />
+						<img src="/assets/faculty.jpg" alt="techarena" />
 					</div>
 				</div>
 			</div>
