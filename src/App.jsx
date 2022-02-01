@@ -65,6 +65,7 @@ function App() {
 						path="/register"
 						element={
 							<>
+								<Navbar />
 								<RegisterationClosed />
 								{/* <RegisterForm /> */}
 							</>
