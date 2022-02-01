@@ -8,14 +8,14 @@ import Faculty from "./components/Faculty";
 import Principal from "./components/Principal";
 import Taboiz from "./components/Taboiz";
 import Footer from "./components/Footer";
-import RegisterForm from "./components/RegisterForm";
+import RegisterationClosed from "./components/RegisterationClosed";
+// import RegisterForm from "./components/RegisterForm";
 
 import "./assets/scss/main.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	useEffect(() => {
-		console.log(document.querySelectorAll('a[href^="#"]'));
 		document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 			anchor.addEventListener("click", function (e) {
 				e.preventDefault();
@@ -61,7 +61,15 @@ function App() {
 							</>
 						}
 					/>
-					<Route path="/register" element={<RegisterForm />} />
+					<Route
+						path="/register"
+						element={
+							<>
+								<RegisterationClosed />
+								{/* <RegisterForm /> */}
+							</>
+						}
+					/>
 				</Routes>
 			</BrowserRouter>
 		</div>
