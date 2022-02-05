@@ -4,7 +4,8 @@ const Taboiz = () => {
 	const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
 	const videoRef = useRef(null);
-	const playVideo = () => {
+
+	const toggleVideo = () => {
 		console.log(isVideoPlaying);
 		if (isVideoPlaying) {
 			videoRef.current.pause();
@@ -12,6 +13,7 @@ const Taboiz = () => {
 			videoRef.current.play();
 		}
 	};
+
 	useEffect(() => {
 		videoRef.current.addEventListener("play", () => {
 			setIsVideoPlaying(true);
@@ -21,18 +23,21 @@ const Taboiz = () => {
 		});
 		videoRef.current.play();
 	}, []);
+
+	const videoUrl = "https://res.cloudinary.com/di9lrcrlj/video/upload/v1644032086/techarena/taprep_hfiyqa.mp4";
+
 	return (
 		<div className="taboiz">
-			<div className="title">meet our team </div>
+			<div className="title">meet our team</div>
 			<div className="video-container">
 				{!isVideoPlaying && <img src="/assets/play.svg" alt="" />}
 				<video
-					src="/assets/taprep.mp4"
+					src={videoUrl}
+					poster="/assets/taboiz.jpg"
 					type="video/mp4"
 					ref={videoRef}
-					// controls
 					onClick={(e) => {
-						playVideo();
+						toggleVideo();
 					}}
 				></video>
 			</div>
